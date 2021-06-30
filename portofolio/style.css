@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	background-image: url(img/a.jpg);
+}
+
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: "";
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+/*style*/
+
+.container {
+	width: 900px;
+	background-color: #71F1EC;
+	margin: auto;
+}
+
+.menu img {
+	width: 280px;
+	height: 50px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 15px;
+	padding: 10px;
+	float: right;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #333;
+	float: left;
+}
+
+.menu ul li a:hover {
+	background-color: #fff;
+	color: #D55353;
+	padding: 20px;
+}
+
+.banner img {
+	width: 900px;
+	height: 250px;
+	margin: auto;
+	border-top: 2px solid salmon;
+	border-bottom: 2px solid black;
+}
+
+.content h1 {
+	font-family: algerian;
+	font-size: 20pxpx;
+	color: #DC3939;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5PX;
+}
+
+.content a {
+	text-decoration: none;
+	color: salmon;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-left: 5Px;
+}
+
+.content .penulis {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.content .kiri {
+width: 450px;
+float: left;
+}
+.content .kiri h1{
+font-size: 30px;
+margin-bottom: 50px;
+
+}
+.content .kanan {
+	width: 450px;
+	float: right;
+}
+.content .kanan h3{
+	font-size: 25px;
+	color font-size: yellow;
+}
+.content .isi {
+	font-family: arial;
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.footer {
+	background-color: #56D14A;
+	padding: 10px;
+}
+
+.footer img {
+	width: 50px;
+	height: 50px;
+	margin-left: 400px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.footer a {
+	text-align: center;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+.portofolio h3 {
+	font-family: Tahoma;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: salmoon;
+}
+.portofolio img{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 10px;
+	border: 2px solid white;
+}
+
+.portofolio img:hover{
+	transform: scale(2);
+	transition: 1.5s;
+}
+
+
+
